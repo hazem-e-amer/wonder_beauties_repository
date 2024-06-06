@@ -1,0 +1,49 @@
+name: wonder_beauties
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^7.2.0
+  shared_preferences: ^2.1.0
+  fluttertoast: ^8.2.2
+  flutter_bloc: ^8.1.2
+  flutter_svg: ^2.0.7
+  intl: ^0.18.1
+  dio: ^5.3.3
+  flutter_screenutil: ^5.9.0
+  local_auth: ^2.2.0
+  cupertino_icons: ^1.0.2
+  draggable_home: ^1.0.4
+  connectivity_plus: ^6.0.3
+  loading_animation_widget: ^1.2.1
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_image.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
