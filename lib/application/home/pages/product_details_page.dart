@@ -66,6 +66,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
                   Functions.showLoaderFunction(context: context);
                   Timer(const Duration(milliseconds: 3000), () {
                     const LoginPage(isLogout: true).launch(context,
+                        isNewTask: true,
                         pageRouteAnimation: PageRouteAnimation.Rotate);
                     setValue(ISLOGGEDIN, false);
                   });

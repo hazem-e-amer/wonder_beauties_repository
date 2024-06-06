@@ -40,7 +40,7 @@ class _SplashPageState extends State<SplashPage> {
   void checkIsLoggedIn() {
     bool? isLoggedIn = getBoolAsync(ISLOGGEDIN);
     Timer(const Duration(milliseconds: 1500), () async {
-      if (isLoggedIn == false || getBoolAsync(REMEMPERME) == false) {
+      if (isLoggedIn == false) {
         const LoginPage(
           isLogout: true,
         ).launch(context, isNewTask: true);
